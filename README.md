@@ -16,11 +16,12 @@ Maintainer: Thomas Telkamp <thomas@telkamp.eu>
 
 Was forked by @jlesech https://github.com/tftelkamp/single_chan_pkt_fwd to add json configuration file    
 then forked by @hallard https://github.com/hallard/single_chan_pkt_fwd 
+then forked by @m2mlorawan https://github.com/m2mlorawan/single_chan_pkt_fwd
 
 Added new Features
 ------------------
 
-- Added support for [Dragino Lora HAT][2] and [LoRasPi][1] (more to come)
+- Added support for  [M2M Shop RPI Shield][3] [Dragino Lora HAT][2] and [LoRasPi][1] (more to come)
 - pin definition are in config file
 - Removed some configuration hard coded in source file and put them into global_conf.json
 - renamed main.cpp to single_chan_pkt_fwd.cpp
@@ -60,6 +61,15 @@ root@pi04 # gpio readall
 | BCM | wPi |   Name  | Physical | Name    | wPi | BCM |
 +-----+-----+---------+--B Plus--+---------+-----+-----+
 ```
+
+* For  [M2M Shop RPI][3] Shiled   
+pins configuration in `global_conf.json`
+```
+  "pin_nss": 6,
+  "pin_dio0": 7,
+  "pin_rst": 0
+```
+
 
 * For [Dragino RPI Lora][2] HAT    
 pins configuration in `global_conf.json`
