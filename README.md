@@ -21,7 +21,7 @@ then forked by @m2mlorawan https://github.com/m2mlorawan/single_chan_pkt_fwd
 Added new Features
 ------------------
 
-- Added support for  [M2M Shop RPI Shield][3] [Dragino Lora HAT][2] and [LoRasPi][1] (more to come)
+- Added support for  [M2M Shop RPI Shield][3], [Dragino Lora HAT][2] and [LoRasPi][1] (more to come)
 - pin definition are in config file
 - Removed some configuration hard coded in source file and put them into global_conf.json
 - renamed main.cpp to single_chan_pkt_fwd.cpp
@@ -114,7 +114,7 @@ Install dependencies as indicated in original README.md below then
 
 ```shell
 cd /home/pi
-git clone https://github.com/hallard/single_chan_pkt_fwd
+git clone https://github.com/m2mlorawan/single_chan_pkt_fwd
 make
 sudo make install
 ````
@@ -169,7 +169,7 @@ Connections
 | SX127x | Raspberry PI         |
 |--------|----------------------|
 | 3.3V   | 3.3V (header pin #1) |
-| GND    | GND (pin #6)         |
+| GND    | GND (pin #9)         |
 | MISO   | MISO (pin #21)       |
 | MOSI   | MOSI (pin #19)       |
 | SCK    | CLK (pin #23)        |
