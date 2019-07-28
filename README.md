@@ -21,7 +21,7 @@ then forked by @m2mlorawan https://github.com/m2mlorawan/single_chan_pkt_fwd
 Added new Features
 ------------------
 
-- Added support for  [M2M Shop RPI Shield][3], [Dragino Lora HAT][2] and [LoRasPi][1] (more to come)
+- Added support for  [M2M Shop RPI Shield][4], [Dragino Lora HAT][2] and [LoRasPi][1] (more to come)
 - pin definition are in config file
 - Removed some configuration hard coded in source file and put them into global_conf.json
 - renamed main.cpp to single_chan_pkt_fwd.cpp
@@ -62,7 +62,7 @@ root@pi04 # gpio readall
 +-----+-----+---------+--B Plus--+---------+-----+-----+
 ```
 
-* For  [M2M Shop RPI][3] Shiled   
+* For  [M2M Shop RPI][4] Shiled   
 pins configuration in `global_conf.json`
 ```
   "pin_nss": 6,
@@ -199,5 +199,5 @@ The source files in this repository are made available under the Eclipse Public 
 [1]: https://github.com/hallard/LoRasPI
 [2]: http://wiki.dragino.com/index.php?title=Lora/GPS_HAT
 [3]: https://github.com/hallard/RPI-Lora-Gateway
- 
+[4]: https://github.com/m2mlorawan/single_chan_pkt_fwd
 
