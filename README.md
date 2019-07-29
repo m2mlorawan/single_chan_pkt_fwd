@@ -134,9 +134,9 @@ journalctl -f -u single_chan_pkt_fwd
 Pictures
 --------
 
-running daemon on Raspberry PI with LoRasPI shield    
+running daemon on Raspberry PI with M2M Shop RPI shield    
 
-<img src="https://raw.githubusercontent.com/hallard/LoRasPI/master/images/LoRasPI-on-Pi.jpg" alt="LoRasPI plugged on PI">
+<img src="https://github.com/m2mlorawan/m2mpishield/blob/master/RPIShield.jpg">
 
 
 
