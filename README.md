@@ -6,6 +6,9 @@ channel LoRaWAN gateway.
 It has been tested on the Raspberry Pi platform, using a Semtech SX1272
 transceiver (HopeRF RFM92W), and SX1276 (HopeRF RFM95W).
 
+<img src="https://github.com/m2mlorawan/m2mpishield/blob/master/1RPI%20LoRa%20Shield.jpg">
+You can buy this product at https://www.tindie.com/products/m2m/1-channel-lorawan-gateway-shield-for-raspberry-pi/
+
 The code is for testing and development purposes only, and is not meant
 for production usage.
 
