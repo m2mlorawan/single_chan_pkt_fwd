@@ -1,7 +1,7 @@
 Single Channel LoRaWAN Gateway
 ==============================
 This repository contains a proof-of-concept implementation of a single
-channel LoRaWAN gateway.
+channel LoRaWAN gateway. Work with RPI4B, RPI3B, RPI0W.
 
 It has been tested on the Raspberry Pi platform, using a Semtech SX1272
 transceiver (HopeRF RFM92W), and SX1276 (HopeRF RFM95W).
@@ -34,6 +34,10 @@ Added new Features
 
 Raspberry PI pin mapping is as follow and pin number in file `global_conf.json` are WiringPi pin number (wPi colunm)
 
+For Raspberry Pi 4, upgrade wiringpi from V.2.50 to V.2.52
+cd /tmp
+wget https://project-downloads.drogon.net/wiringpi-latest.deb
+sudo dpkg -i wiringpi-latest.deb
 
 ```
 root@pi04 # gpio readall
