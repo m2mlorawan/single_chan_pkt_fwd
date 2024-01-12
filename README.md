@@ -1,5 +1,7 @@
 Single Channel LoRaWAN Gateway
 ==============================
+Recommend Raspbain for PI4: Raspberry PI OS (Legacy,64-bit) Full Bullseye Released 2023-12-05
+
 This repository contains a proof-of-concept implementation of a single
 channel LoRaWAN gateway. Work with RPI4B, RPI3B, RPI0W.
 
