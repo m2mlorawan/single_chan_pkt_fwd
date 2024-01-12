@@ -34,10 +34,21 @@ Added new Features
 
 Raspberry PI pin mapping is as follow and pin number in file `global_conf.json` are WiringPi pin number (wPi colunm)
 
-For Raspberry Pi 4, upgrade wiringpi from V.2.50 to V.2.52
-cd /tmp
+
 wget https://project-downloads.drogon.net/wiringpi-latest.deb
+
 sudo dpkg -i wiringpi-latest.deb
+
+OR Using direct link
+64Bit
+wget https://github.com/WiringPi/WiringPi/releases/download/2.61-1/wiringpi-2.61-1-arm64.deb
+
+sudo dpkg -i wiringpi-2.61–1-arm64.deb
+
+32Bit
+wget https://github.com/WiringPi/WiringPi/releases/download/2.61-1/wiringpi-2.61-1-armhf.deb
+
+sudo dpkg -i wiringpi-2.61–1-armhf.deb
 
 ```
 root@pi04 # gpio readall
