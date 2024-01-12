@@ -40,12 +40,13 @@ wget https://project-downloads.drogon.net/wiringpi-latest.deb
 sudo dpkg -i wiringpi-latest.deb
 
 OR Using direct link
-64Bit
+
+(64Bit)
 wget https://github.com/WiringPi/WiringPi/releases/download/2.61-1/wiringpi-2.61-1-arm64.deb
 
 sudo dpkg -i wiringpi-2.61–1-arm64.deb
 
-32Bit
+(32Bit)
 wget https://github.com/WiringPi/WiringPi/releases/download/2.61-1/wiringpi-2.61-1-armhf.deb
 
 sudo dpkg -i wiringpi-2.61–1-armhf.deb
