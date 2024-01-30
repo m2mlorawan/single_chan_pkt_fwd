@@ -1,11 +1,11 @@
 {
   "SX127x_conf":
   {
-    "freq": 868100000,
+    "freq": 923200000,
     "spread_factor": 7,
-    "pin_nss": 8,
-    "pin_dio0": 6,
-    "pin_rst": 3,
+    "pin_nss": 6,
+    "pin_dio0": 7,
+    "pin_rst": 0,
     "pin_led1":4
   },
   "gateway_conf":
@@ -16,21 +16,22 @@
 
     "name": "SC Gateway",
     "email": "contact@whatever.com",
-    "desc": "Dragino Single Channel Gateway on RPI",
+    "desc": "M2M Single Channel Gateway on RPI",
 
     "servers":
     [
       {
-        "address": "router.eu.staging.thethings.network",
+        "address": "192.168.1.100",
         "port": 1700,
         "enabled": true
       },
       {
         "address": "router.eu.thethings.network",
         "port": 1700,
-        "enabled": false
+        "enabled": true
       }
     ]
   }
 }
+
 
