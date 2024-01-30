@@ -23,7 +23,7 @@
       {
         "address": "192.168.1.100",
         "port": 1700,
-        "enabled": true
+        "enabled": false
       },
       {
         "address": "router.eu.thethings.network",
