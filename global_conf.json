@@ -26,7 +26,7 @@
         "enabled": false
       },
       {
-        "address": "router.eu.thethings.network",
+        "address": "eu1.cloud.thethings.network",
         "port": 1700,
         "enabled": true
       }
