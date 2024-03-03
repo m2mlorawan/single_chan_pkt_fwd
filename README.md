@@ -1,9 +1,8 @@
 Single Channel LoRaWAN Gateway
 ==============================
-Recommend Raspbain for PI4: Raspberry PI OS (Legacy,64-bit) Full Bullseye Released 2023-12-05
 
 This repository contains a proof-of-concept implementation of a single
-channel LoRaWAN gateway. Work with RPI4B, RPI3B, RPI0W.
+channel LoRaWAN gateway. Work with RPI5, RPI4B, RPI3B, RPI0W.
 
 It has been tested on the Raspberry Pi platform, using a Semtech SX1272
 transceiver (HopeRF RFM92W), and SX1276 (HopeRF RFM95W).
@@ -36,22 +35,15 @@ Added new Features
 
 Raspberry PI pin mapping is as follow and pin number in file `global_conf.json` are WiringPi pin number (wPi colunm)
 
+Download lastest WiringPi at
+https://github.com/WiringPi/WiringPi/releases
 
-wget https://project-downloads.drogon.net/wiringpi-latest.deb
-
-sudo dpkg -i wiringpi-latest.deb
-
-OR Using direct link
-
+Installation command
 (64Bit)
-wget https://github.com/WiringPi/WiringPi/releases/download/2.61-1/wiringpi-2.61-1-arm64.deb
-
-sudo dpkg -i wiringpi-2.61–1-arm64.deb
+sudo dpkg -i wiringpi_3.0_arm64.deb
 
 (32Bit)
-wget https://github.com/WiringPi/WiringPi/releases/download/2.61-1/wiringpi-2.61-1-armhf.deb
-
-sudo dpkg -i wiringpi-2.61–1-armhf.deb
+sudo dpkg -i wiringpi_3.0_armhf.deb
 
 ```
 root@pi04 # gpio readall
